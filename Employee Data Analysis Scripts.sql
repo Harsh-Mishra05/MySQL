@@ -105,10 +105,6 @@ SELECT department, MAX(salary) AS highest_salary
 FROM Ass_3
 WHERE department = 'IT';
 
-
-
-
-
 # Get the average salary of employees in each department and list only departments with an average salary greater than $60,000.
 SELECT department, AVG(salary) AS average_salary
 FROM Ass_3
